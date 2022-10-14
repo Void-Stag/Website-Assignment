@@ -1,0 +1,190 @@
+/*CSS*/
+section.white{
+	background-color: white;
+}
+div.center{
+	text-align: center;
+	float: center;
+}
+h1{
+	font-family: Arial;
+	font-size: 35px;
+	font-weight: bold;
+	color: #0077b3;
+	text-align: center;
+}
+h2{
+	font-family: Arial;/*Changes the type of font*/
+	font-size: 24px;/*Changes the size of the font*/
+	font-weight: normal;
+	font-style: italic;/*Changes the style of the font*/ 
+	color: #0077b3;/*Changes the colour of the text*/
+	text-align: left;/*Changes text alignment*/
+}
+p.centerpar{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: bold;
+	background-color: white;
+	color: black;
+}
+p.leftpar{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: black;
+	text-align: left;
+}
+p.rightpar{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: black;
+	text-align: right;
+}
+h2.hright{
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: italic;
+	color: #0077b3;
+	text-align: right;
+}
+h2.hleft{
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: italic;
+	color: #0077b3;
+	text-align: left;
+}
+h2.hcenter{
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: italic;
+	color: #0077b3;
+	text-align: center;
+}
+/* USING UL, LI, AND CSS TO SET A NAVIGATION BAR (MENU) */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15%;
+}
+
+li {
+	float:left; /*Postion the bar left/ right /inherit/ non */
+}
+
+li a {
+	padding: 15px; /*Change the space inbetween the words*/
+	background-color:none;
+	color: black; /*Change the color of the hyperlinks*/
+}
+
+a:hover {
+	background-color: #0077b3; /*Change the color of the link boxon hover event*/
+}
+
+a.active {
+	background-color: #b3e6ff;/*Change the background color for the active link*/
+	color: black;/*Change the color of the word in the active link*/
+}
+div.centerdiv{
+	background-color: #b3e6ff;
+	text-align:center;
+	width:60%;
+	margin: auto; /* Use this to center the div */
+}
+/*END OF NAVIGATION BAR SETTINGS */
+
+div.headerdiv{
+	background-color: #b3e6ff;
+	text-align: right;
+	padding-top: 1px;
+}
+
+
+div.leftdiv{
+	background-color:  #b3e6ff;
+	text-align:center;
+	width:25%;
+	float:right;
+}
+
+
+
+div.rightdiv{
+	font-size: 18px;
+	text-align:center;
+	background-color: #b3e6ff;
+	width: 75%;
+	height: 75px;
+	float: left;
+	padding-top: 1px;
+}
+/* MAIN DIVS CONTAINS MAINLEFTDIV AND MAINRIGHTDIV*/
+div.mainbodydiv{
+	background-color: #b3e6ff;/*Changes background colour*/
+	margin-top: 0px;/*Changes the size of the top margin*/
+	padding-top: 0px;/*Changes the sie of the padding*/
+	width: 100%;
+	min-width: 300px;/*Changes the size of the min-width*/
+}
+/* DIVS*/
+/*MAIN LEF DIV IS USED FOR CONTENT*/
+div.mainleftdiv{
+	background-color: white;
+	text-align:left;
+	width: 50%;/*Changes the size of the width*/
+	min-width: 30%;
+	float:left;
+	height: auto;
+}
+/*MAIN RIGHT DIV IS USED FOR CONTENT */
+div.mainrightdiv{
+	background-color: white;
+	font-size: 20px;
+	text-align:center;
+	width: 25%;
+	min-width: 300px;
+	height: auto;/*Changes the height of the div*/
+	float: right;
+	padding-top: 0px;
+}
+/*MAIN FAR RIGHT DIV IS USED FOR CONTENT */
+div.farrightdiv{
+	background-color: white;
+	font-size: 20px;
+	text-align:center;
+	width: 25%;
+	min-width: 300px;
+	height: auto;
+	float: right;
+	padding-top: 0px;
+}
+div.centerrightdiv{
+	background-color: white;
+	font-size: 20px;
+	text-align:left;
+	width: 50%;
+	min-width: 300px;
+	height: auto;
+	float: right;/*Changes the position of the div*/
+	padding-top: 0px;
+}
+/*END OF DIVS*/
+
+
+/*FOOTER*/
+div.footerdiv{
+	display: inline-block;/*Changes where the  div is displayed*/
+	background-color: white;
+	text-align:center;
+	width: 100%;
+	min-width: 300px;
+	padding-top: 10px;
+	height: 70px;
+}

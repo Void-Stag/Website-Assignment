@@ -1,0 +1,30 @@
+/* My first external CSS*/
+
+/* USING UL, LI, AND CSS TO SET A NAVIGATION BAR (MENU) */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float:left; /*Postion the bar left/ right /inherit/ non */
+}
+
+li a {
+	display: inline;
+	padding: 10px; /*Change the space inbetween the words*/
+	background-color:grey;
+	color: white; /*Change the color of the hyperlinks*/
+}
+
+a:hover {
+	background-color: darkred; /*Change the color of the link boxon hover event*/
+}
+
+a.active {
+	background-color: darkorange;/*Change the background color for the active link*/
+	color: black;/*Change the colorof the word in the active link*/
+}
+
+/*END OF NAVIGATION BAR SETTINGS */

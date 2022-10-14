@@ -1,0 +1,91 @@
+/* CSS FOR USING A MENU BAR AND DIVS IN-LINE (css2divsmenu.css) */
+
+/* USING UL, LI, AND CSS TO SET A NAVIGATION BAR (MENU) */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 15%; /* This will help to center the menu */
+}
+
+li{
+	float: left; /* Position the bar to the left/right /inherit/none */
+}
+
+li a{
+	padding: 15px;
+	background-color:none;
+	color: darkred;
+}
+
+a:hover{
+	background-color:white;
+}
+
+a.active{
+	background-color: darkorange;
+	color: black;
+}
+/* END OF NAVIGATION SETTINGS */
+
+div.headerdiv{
+	background-color: grey;
+	text-align: right;
+}
+
+
+div.leftdiv{
+	background-color: orange;
+	text-align:center;
+	width:25%;
+	float:left;
+}
+
+
+
+div.rightdiv{
+	font-size: 18px;
+	text-align:center;
+	background-color: lightgrey;
+	width: 75%;
+	height: 49px;
+	float: left;
+	padding-top: 25px;
+}
+/* MAIN DIVS CONTAINS MAINLEFTDIV AND MAINRIGHTDIV*/
+div.mainbodydiv{
+	background-color:white;
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 100%;
+	min-width: 300px;
+}
+/*MAIN LEF DIV IS USED FOR PLACING AN IMAGE*/
+div.mainleftdiv{
+	background-color: white;
+	text-align:center;
+	width: 50%;
+	min-width: 30%;
+	float:left;
+	height: 190px;
+}
+/*MAIN RIGHT DIV IS USED FOR CONTENT */
+div.mainrightdiv{
+	background-color: white;
+	font-size: 18px;
+	text-align:center;
+	width: 50%;
+	min-width: 300px;
+	height: 190px;
+	float: left;
+	padding-top: 0px;
+}
+/*FOOTER*/
+div.footerdiv{
+	display: inline-block;
+	background-color: orange;
+	text-align:center;
+	width: 100%;
+	min-width: 300px;
+	padding-top: 10px;
+	height: 70px;
+}

@@ -1,0 +1,59 @@
+/* Using CSS */
+section#greysection{
+	background-color: grey;
+	font-size: 22px;
+	margin-left: 10px; /*This margin between the edge of the screen and the edge of the section*/
+	margin-right: 10px;
+	padding-left: 10px;/*This the margin between the edge of the section and the words or object inside the section*/
+	padding-right: 10px;
+}
+
+section#silversection{
+	background-color: silver;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: darkred;
+	text-align: center;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	color: red;
+	text-align: left;
+}
+
+p.centerpar {
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+	background-color: orange;
+	color: black;
+	text-align: center;
+}
+
+p.leftpar{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	text-align: left;
+}
+
+p.rightpar{
+	font-family: "Courier New",monospace;
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	text-align: right;
+}
+	
